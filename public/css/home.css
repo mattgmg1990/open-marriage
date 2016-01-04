@@ -67,11 +67,11 @@ body {
     -moz-box-shadow: 0 0 2px rgba(0,0,0, 0.10);
     box-shadow: 0 0 2px rgba(0,0,0, 0.10);*/
 }
-.event-leslie {
+.event-katie {
     margin-right: 2em;
     border-right: 1px solid #e5e5df;
 }
-.event-eric {
+.event-matt {
     margin-left: 2em;
     border-left: 1px solid #e5e5df;
 }
@@ -95,7 +95,7 @@ body {
 .event-person-sep {
     font-family: "jubilat", serif;
     font-weight: 400;
-    margin: 0 0.15em;
+    margin: 0 0.10em;
 }
 .event-time {
     margin-top: 0.5em;
@@ -161,61 +161,61 @@ body {
     .event {
         clear: both;
     }
-    .event-leslie,
-    .event-eric {
+    .event-katie,
+    .event-matt {
         width: 23em;
         position: relative;
     }
-    .event-leslie {
+    .event-katie {
         float: left;
         clear: left;
         margin: 2em 1em 2em 0;
     }
-    .event-eric {
+    .event-matt {
         float: right;
         clear: right;
         margin: 2em 0 2em 1em;
     }
-    .event-leslie:before,
-    .event-leslie:after,
-    .event-eric:before,
-    .event-eric:after {
+    .event-katie:before,
+    .event-katie:after,
+    .event-matt:before,
+    .event-matt:after {
         content: "";
         height: 0;
         width: 0;
         position: absolute;
         border: solid transparent;
     }
-    .event-leslie:before,
-    .event-eric:before {
+    .event-katie:before,
+    .event-matt:before {
         top: 14px;
         border-width: 12px;
     }
-    .event-leslie:after,
-    .event-eric:after {
+    .event-katie:after,
+    .event-matt:after {
         top: 15px;
         border-width: 11px;
     }
-    .event-leslie:before {
+    .event-katie:before {
         left: 100%;
         border-left-color: #e5e5df;
         /*border-left-color: rgba(0,0,0, 0.05);*/
     }
-    .event-leslie:after {
+    .event-katie:after {
         left: 100%;
         border-left-color: #fff;
     }
-    .event-eric:before {
+    .event-matt:before {
         right: 100%;
         border-right-color: #e5e5df;
         /*border-right-color: rgba(0,0,0, 0.05);*/
     }
-    .event-eric:after {
+    .event-matt:after {
         right: 100%;
         border-right-color: #fff;
     }
-    .event-leslie + .event-eric,
-    .event-eric + .event-leslie {
+    .event-katie + .event-matt,
+    .event-matt + .event-katie {
         margin-top: 4em;
     }
 }

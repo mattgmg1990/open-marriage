@@ -12,7 +12,7 @@ var combo   = require('combohandler'),
 
 // -- Configure ----------------------------------------------------------------
 
-app.set('name', 'Leslie-Eric Wedding');
+app.set('name', 'Katie-Matt Wedding');
 app.set('env', config.env);
 app.set('port', config.port);
 app.set('views', config.dirs.views);
@@ -33,8 +33,8 @@ app.engine('hbs', exphbs({
 app.expose(config.yui.config, 'window.YUI_config');
 
 app.locals({
-    title   : 'Leslie & Eric',
-    appTitle: 'L&E Wedding',
+    title   : 'Katie & Matt',
+    appTitle: 'K&M Wedding',
 
     version    : config.version,
     yui_version: config.yui.version,

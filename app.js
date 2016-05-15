@@ -50,7 +50,6 @@ app.locals({
         logistics: [
             {id: 'logistics', url: '/logistics/',         label: 'Logistics'},
             {id: 'hotels',    url: '/logistics/hotels/',  label: 'Hotels'},
-            {id: 'outings',   url: '/logistics/outings/', label: 'Outings'}
         ]
     },
 

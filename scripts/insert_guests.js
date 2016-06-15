@@ -36,7 +36,6 @@ function writeToDb(rows) {
                 if (err) {console.log(err)}
                 console.log(results)
                 done();
-                process.exit(1);
             });
         }
     });

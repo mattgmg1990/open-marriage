@@ -115,57 +115,6 @@ textarea:focus {
     box-sizing: border-box;
 }
 
-button,
-.button {
-    position: relative;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
-    line-height: 3.0;
-    padding: 0 0.5em 0 3.5em;
-    background: #87c594;
-    text-align: center;
-    font-weight: 700;
-    overflow: hidden;
-    border: 0;
-    -webkit-border-radius: 0.125em;
-    -moz-border-radius: 0.125em;
-    border-radius: 0.125em;
-}
-button,
-.button,
-a.button {
-    color: #304534;
-    text-decoration: none;
-}
-button:before,
-.button:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 2em;
-    font-weight: 400;
-    line-height: 1.5;
-    width: 1em;
-    padding: 0.125em 0.25em 0;
-    background: #75AB81;
-    text-align: center;
-}
-button:before,
-.button:before,
-button:after,
-.button:after {
-    z-index: 0;
-}
-.is-button-negative,
-a.is-button-negative {
-    background: #f2c63d;
-    color: #513e06;
-}
-.is-button-negative:before {
-    background: #e0ac10;
-}
-
 .brand {
     font-size: 1.25em;
     font-family: "futura-pt", sans-serif;
@@ -369,11 +318,6 @@ a.is-button-negative {
     .l-contain {
         padding-left: 1em;
         padding-right: 1em;
-    }
-
-    button,
-    .button {
-        padding: 0 1em 0 4em;
     }
 
     .brand {

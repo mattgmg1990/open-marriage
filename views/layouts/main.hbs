@@ -13,6 +13,8 @@
   {{/if}}
 
     {{addCSS "/css/main.css"                       prepend=true}}
+    {{addCSS "/css/bootstrap.min.css"                       prepend=true}}
+    {{addCSS "/css/bootstrap-theme.css"                       prepend=true}}
     {{addCSS "/vendor/normalize-css/normalize.css" prepend=true}}
 
   {{#css}}
@@ -38,6 +40,8 @@
 {{{body}}}
 
 <script src="http://yui.yahooapis.com/{{yui_version}}/build/yui/yui{{min}}.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script>
 {{{state}}}
 YUI().use('{{yui_module}}');

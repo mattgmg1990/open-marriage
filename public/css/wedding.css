@@ -14,6 +14,10 @@ body {
     background: #fff;
 }
 
+.btn-primary {
+    color: #FFFFFF !important;
+}
+
 .l-wrap {
     position: absolute;
     top: 62%;

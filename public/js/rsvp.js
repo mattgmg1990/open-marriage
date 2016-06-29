@@ -123,7 +123,7 @@ YUI.add('le-rsvp', function (Y) {
     // -- Views ----------------------------------------------------------------
 
     Y.InvitationView = Y.Base.create('invitationView', Y.View, [], {
-        guestNeedsMealMsg: 'Choose which Main Course you would like.',
+        guestNeedsMealMsg: 'Please let us know which members of your party can make it.',
         invitationDoneMsg: 'Everything is set with your invitation response.',
 
         events: {
